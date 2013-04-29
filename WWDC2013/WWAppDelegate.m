@@ -18,9 +18,7 @@
 {
     
     NSLog(@"Application finished launching.");
-    
-    CGFloat height = [[UIScreen mainScreen] bounds].size.height;
-    
+        
     [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
     [[self window] setAlpha:0.0];
     [[self window] setBackgroundColor:[UIColor blackColor]];
@@ -37,9 +35,7 @@
         [[self window] setAlpha:1.0];
         
     }];
-    
-    if (height < 568) [[[UIAlertView alloc] initWithTitle:nil message:@"This application is best viewed on a device with a 4 inch screen." delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil] show];
-    
+        
     return YES;
 }
 
