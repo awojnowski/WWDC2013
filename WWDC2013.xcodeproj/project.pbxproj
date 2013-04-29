@@ -81,6 +81,9 @@
 		93880BF6172E25720038F45E /* response-lesson in Resources */ = {isa = PBXBuildFile; fileRef = 93880BF5172E25710038F45E /* response-lesson */; };
 		93880BF8172E25790038F45E /* response-improving in Resources */ = {isa = PBXBuildFile; fileRef = 93880BF7172E25790038F45E /* response-improving */; };
 		93880BFA172E25810038F45E /* response-why in Resources */ = {isa = PBXBuildFile; fileRef = 93880BF9172E25810038F45E /* response-why */; };
+		93880C00172EDF8F0038F45E /* WWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93880BFF172EDF8F0038F45E /* WWImageView.m */; };
+		93880C02172EE29B0038F45E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93880C01172EE29B0038F45E /* Icon@2x.png */; };
+		93880C04172EE29D0038F45E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93880C03172EE29D0038F45E /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,6 +192,10 @@
 		93880BF5172E25710038F45E /* response-lesson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-lesson"; sourceTree = "<group>"; };
 		93880BF7172E25790038F45E /* response-improving */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-improving"; sourceTree = "<group>"; };
 		93880BF9172E25810038F45E /* response-why */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-why"; sourceTree = "<group>"; };
+		93880BFE172EDF8E0038F45E /* WWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWImageView.h; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/WWImageView.h"; sourceTree = "<group>"; };
+		93880BFF172EDF8F0038F45E /* WWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWImageView.m; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/WWImageView.m"; sourceTree = "<group>"; };
+		93880C01172EE29B0038F45E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		93880C03172EE29D0038F45E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +219,8 @@
 		9308B3DC17299EC7007484B0 = {
 			isa = PBXGroup;
 			children = (
+				93880C03172EE29D0038F45E /* Icon.png */,
+				93880C01172EE29B0038F45E /* Icon@2x.png */,
 				9308B3EE17299EC7007484B0 /* WWDC2013 */,
 				9308B442172A1201007484B0 /* Vendor */,
 				9308B3E617299EC7007484B0 /* Products */,
@@ -344,6 +353,8 @@
 		9308B40E1729D4BA007484B0 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
+				93880BFE172EDF8E0038F45E /* WWImageView.h */,
+				93880BFF172EDF8F0038F45E /* WWImageView.m */,
 				9308B4101729D4D4007484B0 /* WWBlurredImageView.h */,
 				9308B4111729D4D4007484B0 /* WWBlurredImageView.m */,
 				9308B44B172A1C64007484B0 /* WWBlurredSlideshowImageView.h */,
@@ -716,6 +727,8 @@
 				93880BF6172E25720038F45E /* response-lesson in Resources */,
 				93880BF8172E25790038F45E /* response-improving in Resources */,
 				93880BFA172E25810038F45E /* response-why in Resources */,
+				93880C02172EE29B0038F45E /* Icon@2x.png in Resources */,
+				93880C04172EE29D0038F45E /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +768,7 @@
 				93880BDB172D93F20038F45E /* WWNavigationViewController.m in Sources */,
 				93880BEB172E184D0038F45E /* SVProgressHUD.m in Sources */,
 				93880BEE172E19AD0038F45E /* WWTranslucentTableViewCell.m in Sources */,
+				93880C00172EDF8F0038F45E /* WWImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
