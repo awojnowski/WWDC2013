@@ -97,7 +97,7 @@
     [staticView addSubview:sayingLabel];
     [self setSayingLabel:sayingLabel];
     
-    [parallaxView setFrame:CGRectMake(0, 0, 320, 2000)];
+    [parallaxView setFrame:CGRectMake(0, 0, 320, 2600)];
     return parallaxView;
     
 }
