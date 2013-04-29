@@ -1,0 +1,15 @@
+Think about an app you frequently use.  How would you improve it?
+
+There is one application that is above all others right now.  The App Store.
+
+As a developer, having people download your app is EVERYTHING.  Now, it's really really bad if there is actually no decent way to do this.
+
+Firstly, let me begin by saying loading indicators in a place other than the status bar.  When the App Store loads content, it just displays a white background until the content is loaded in.  This would be acceptable if the content loaded at a decent pace but it never really does.  I can't count all the times where I've gone to browse the App Store on 3G only to stare at a white screen for a minute.  At that point I'm wondering if the request failed, if it's still loading, etc.  Give me a spinny thingy to look at on the white background instead of something really tucked away.  This especially is important with the updates tab which doesn't display results 2/3 times.
+
+This one sort of goes hand in hand with the first improvement, but could we please get some error messages up in here?  If a request fails, I don't want to see a white screen.  Having the option to reload and just saying something simple like "Error loading content, please try again" would make a world of difference and would actually let the end user know if something went wrong.  Then again, maybe it already does this and I just haven't let it load long enough.  Can't really tell though because there's no reliable loading indicator.
+
+Search results are absolutely huge in the App Store.  Loads of users find their apps through search so having a compelling search experience is paramount.  I honestly don't know what the thinking was when search turned into single-page swiping tiles.  Sure, a screenshot is nice to have but I personally prefer to see multiple results when searching which means that a table view would be much appreciated.  You used to be able to get decent search downloads when ranking even as far as 30th for a keyword but now you're out of luck if you're any further down than rank five.
+
+When Musi was launched, we had a severe search issue.  How severe?  You could only find the app by searching "Musi Christian Lunny" since searching "Musi" silently corrected to "Music" (and we wouldn't rank for this term in a million years as a new app).  I think this has been done now, since we're searchable, but improving the search algorithm to return exact application names first and then the rest of the results would be much appreciated and would mitigate issues like what happened with Musi.
+
+Finally, I'd love to see a better category search.  Organic application discovery is really important for new applications.  Having the ability to view categories and the top applications within these categories in a better way than waiting for an extremely slow modal view controller in the top charts tab would make a world of difference.

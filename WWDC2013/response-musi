@@ -1,0 +1,9 @@
+Musi is a rebranded version of previous application of mine called YouTunes Live.  It allows you to stream just the audio from YouTube videos, create playlists, discover new music, and much more.
+
+I am the sole developer on the Musi team, which consists of myself and two other high school students.  Throughout Musi's development, I worked on both the iOS application and the server side code that was required to make Musi possible.
+
+Technology wise, Musi uses Core Data to manage all of a user's songs and playlists.  Once a user wishes to play something, CFNetwork and AVFoundation frameworks are used to stream the audio from the Internet.  Musi makes use of UITableView to manage songs which allows for easy reordering and sectioning of music.  CoreAnimation and QuartzCore are used to make the interface more animated and appealing to the eye.
+
+Since its launch, Musi has received a fair amount of press and good feedback.  It currently holds a 4+ star review on the App Store and the Musi team has been featured on CTV News Winnipeg, CTV News National, The Globe and Mail, CBC, and the Winnipeg Sun.
+
+Feel free to visit http://feelthemusi.com and http://feelthemusi.com/pages/press to learn more about Musi.
