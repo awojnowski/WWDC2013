@@ -27,9 +27,9 @@
     [[self view] setBackgroundColor:[UIColor whiteColor]];
     
     WWIphoneApplication *application = [self application];
-    [self setTitle:[application name]];
     
     NSString *filename = nil;
+    NSString *title = [application name];
     
     if ([[application name] isEqualToString:@"Musi"]) {
         
@@ -39,11 +39,32 @@
      
         filename = @"response-minus";
         
+    } else if ([[application name] isEqualToString:@"MCTT"]) {
+        
+        filename = @"response-mctt";
+        title = @"MyCityTopTens";
+        
+    } else if ([[application name] isEqualToString:@"Mployd"]) {
+        
+        filename = @"response-mployd";
+        
+    } else if ([[application name] isEqualToString:@"FL ME"]) {
+        
+        filename = @"response-flashlightme";
+        title = @"Flashlight ME";
+        
+    } else if ([[application name] isEqualToString:@"Storage"]) {
+        
+        filename = @"response-appstorage";
+        title = @"App Storage";
+        
     } else if ([[application name] isEqualToString:@"Other"]) {
         
         filename = @"response-other";
         
     }
+    
+    [self setTitle:title];
     
     NSString *text = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:@""] encoding:NSUTF8StringEncoding error:nil];
     [self setText:text];

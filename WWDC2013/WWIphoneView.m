@@ -67,7 +67,7 @@
         [buttonSuperview setFrame:CGRectMake(i * (45 + padding) + padding, y, 45, 45)];
         [[self applicationView] addSubview:buttonSuperview];
         
-        [[buttonSuperview layer] setCornerRadius:10.0];
+        [[buttonSuperview layer] setCornerRadius:8.0];
         [[buttonSuperview layer] setShadowRadius:0.0];
         [[buttonSuperview layer] setShadowColor:[[UIColor blackColor] CGColor]];
         [[buttonSuperview layer] setShadowOpacity:0.75];
@@ -82,7 +82,7 @@
         [button addTarget:self action:@selector(tappedButton:) forControlEvents:UIControlEventTouchUpInside];
         [button setImage:[application image] forState:UIControlStateNormal];
         [button setClipsToBounds:YES];
-        [[button layer] setCornerRadius:10.0];
+        [[button layer] setCornerRadius:8.0];
         [buttonSuperview addSubview:button];
         
         UILabel *label = [[UILabel alloc] init];

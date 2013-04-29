@@ -40,6 +40,10 @@
     [iphoneView setApplications:@[
      [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"musiIcon@2x"] name:@"Musi" storeID:@"591560124"],
      [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"minusIcon@2x"] name:@"Minus" storeID:@"585660589"],
+     [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"mploydIcon@2x"] name:@"Mployd"],
+     [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"MCTTIcon@2x"] name:@"MCTT"],
+     [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"flashlightMeIcon@2x"] name:@"FL ME"],
+     [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"appStorageIcon@2x"] name:@"Storage"],
      [WWIphoneApplication applicationWithImage:[UIImage imageNamed:@"otherIcon@2x"] name:@"Other"]
     ]];
     [parallaxView addSubview:iphoneView];
