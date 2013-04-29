@@ -89,7 +89,12 @@
             
         }
         
-    } else [[self staticView] setTransform:CGAffineTransformMakeTranslation(0, 0)];
+    } else {
+        
+        [[self staticView] setTransform:CGAffineTransformMakeTranslation(0, 0)];
+        [[self codeLabel] setText:[_code substringToIndex:1]];
+        
+    }
     
 }
 
