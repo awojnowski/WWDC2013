@@ -84,7 +84,7 @@
 -(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     if (section == 0) return 4;
-    if (section == 1) return 3;
+    if (section == 1) return 1;
     return 1;
     
 }
@@ -123,13 +123,7 @@
             switch ([indexPath row]) {
                     
                 case 0:
-                    [[cell textLabel] setText:@"Musi"];
-                    break;
-                case 1:
-                    [[cell textLabel] setText:@"Minus"];
-                    break;
-                case 2:
-                    [[cell textLabel] setText:@"Miscellaneous Work"];
+                    [[cell textLabel] setText:@"My Apps"];
                     break;
                     
             }
@@ -160,8 +154,6 @@
     int ipSection = [indexPath section];
     int ipRow = [indexPath row];
     
-    if (ipSection == 1) ipRow = 0;
-    
     int section = 2 + ipRow;
     int totalSections = 3;
     
@@ -174,9 +166,6 @@
         }
                 
     }
-    
-    // since section two although having three rows only has one that counts
-    if (ipSection > 1) section -= [self tableView:tableView numberOfRowsInSection:1] - 1;
     
     [[self parentTableView] scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:section] atScrollPosition:UITableViewScrollPositionTop animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
