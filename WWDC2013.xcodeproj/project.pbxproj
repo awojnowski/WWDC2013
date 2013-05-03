@@ -200,18 +200,18 @@
 		93880BF5172E25710038F45E /* response-lesson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-lesson"; sourceTree = "<group>"; };
 		93880BF7172E25790038F45E /* response-improving */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-improving"; sourceTree = "<group>"; };
 		93880BF9172E25810038F45E /* response-why */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "response-why"; sourceTree = "<group>"; };
-		93880BFE172EDF8E0038F45E /* WWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWImageView.h; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/WWImageView.h"; sourceTree = "<group>"; };
-		93880BFF172EDF8F0038F45E /* WWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWImageView.m; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/WWImageView.m"; sourceTree = "<group>"; };
+		93880BFE172EDF8E0038F45E /* WWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWImageView.h; path = "WWImageView.h"; sourceTree = "<group>"; };
+		93880BFF172EDF8F0038F45E /* WWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWImageView.m; path = "WWImageView.m"; sourceTree = "<group>"; };
 		93880C01172EE29B0038F45E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		93880C03172EE29D0038F45E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		93880C05172EED7D0038F45E /* mploydIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mploydIcon@2x.png"; sourceTree = "<group>"; };
 		93880C06172EED7D0038F45E /* MCTTIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MCTTIcon@2x.png"; sourceTree = "<group>"; };
 		93880C07172EED7D0038F45E /* flashlightMeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashlightMeIcon@2x.png"; sourceTree = "<group>"; };
 		93880C08172EED7D0038F45E /* appStorageIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appStorageIcon@2x.png"; sourceTree = "<group>"; };
-		93880C0D172EEE340038F45E /* response-mctt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-mctt"; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/response-mctt"; sourceTree = "<group>"; };
-		93880C0F172EEE3D0038F45E /* response-mployd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-mployd"; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/response-mployd"; sourceTree = "<group>"; };
-		93880C11172EEE4B0038F45E /* response-appstorage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-appstorage"; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/response-appstorage"; sourceTree = "<group>"; };
-		93880C13172EEE520038F45E /* response-flashlightme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-flashlightme"; path = "../../../../../../../../Aaron/Documents/Work/Personal/iOS/WWDC Student Scholarship 2013/WWDC2013/WWDC2013/response-flashlightme"; sourceTree = "<group>"; };
+		93880C0D172EEE340038F45E /* response-mctt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-mctt"; path = "response-mctt"; sourceTree = "<group>"; };
+		93880C0F172EEE3D0038F45E /* response-mployd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-mployd"; path = "response-mployd"; sourceTree = "<group>"; };
+		93880C11172EEE4B0038F45E /* response-appstorage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-appstorage"; path = "response-appstorage"; sourceTree = "<group>"; };
+		93880C13172EEE520038F45E /* response-flashlightme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "response-flashlightme"; path = "response-flashlightme"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
